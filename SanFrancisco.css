@@ -1,0 +1,11 @@
+#map-container {
+  position: relative;
+  width: 100%;
+  /* Assuming you want it to take up the full width */
+}
+
+#map {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

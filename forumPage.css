@@ -1,0 +1,171 @@
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(148, 171, 240);
+  /* Soft blue background */
+}
+
+#header {
+  position: absolute;
+  text-size-adjust: auto;
+  top: 50px;
+  left: 45%;
+  color: black;
+  border-color: black;
+  border-radius: 50px;
+  font-size: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+#postTitle {
+  position: absolute;
+  text-size-adjust: auto;
+  top: 200px;
+  left: 35%;
+  width: 500px;
+  color: black;
+  border-color: black;
+  border-radius: 50px;
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+#postContent {
+  position: absolute;
+  text-size-adjust: auto;
+  top: 300px;
+  left: 35%;
+  width: 500px;
+  color: black;
+  border-color: black;
+  border-radius: 50px;
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+  /* Added line */
+}
+
+#posts,
+#postForm {
+  background-color: #fff;
+  top: 600px;
+  /* White background */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Soft shadow */
+  padding: 20px;
+  /* Add padding */
+  text-align: left;
+  /* Reset text alignment */
+}
+
+input[type="text"],
+textarea {
+  width: calc(100% - 20px);
+  /* Make the input fields slightly less than 100% width */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* Light gray border */
+  border-radius: 4px;
+  /* Rounded corners */
+  box-sizing: border-box;
+  /* Include padding and border in element's total width and height */
+}
+
+button {
+  position: absolute;
+  width: 430px;
+  height: 50px;
+  top: 330px;
+  left: 550px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  background-color: rgb(145, 95, 109);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+button img {
+  width: 20px;
+  /* Set the width of the image */
+  height: 20px;
+  /* Set the height of the image */
+}
+
+#searchButton {
+  position: absolute;
+  width: 430px;
+  height: 50px;
+  top: 430px;
+  left: 550px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  background-color: rgb(145, 95, 109);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#voiceSearchButton {
+  position: absolute;
+  width: 430px;
+  height: 50px;
+  top: 480px;
+  left: 550px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  background-color: rgb(145, 95, 109);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#createPost {
+  position: absolute;
+  width: 430px;
+  height: 50px;
+  top: 530px;
+  left: 550px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  background-color: rgb(145, 95, 109);
+  border-radius: 10px;
+  z-index: 2;
+}
+
+#posts {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  /* Adjust the left positioning to center the posts container */
+  width: 90%;
+  /* Set the width to cover most of the screen */
+  height: 80%;
+  /* Set the height to cover most of the screen */
+  background-color: #fff;
+  /* Set the background color to white */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Soft shadow */
+  padding: 20px;
+  /* Add padding */
+  overflow-y: auto;
+  /* Add vertical scroll if necessary */
+}
